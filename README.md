@@ -1,7 +1,7 @@
 # Learning Android
 Tự học lập trình Android
 Các phần quan trọng cần chú ý để tiếp cận Lập trình Android:
-1. Activity
-2. Services
-3. Broad Cast Receiver
-4. Content Provider
++ Activity
++ Services
++ Broad Cast Receiver
++ Content Provider
