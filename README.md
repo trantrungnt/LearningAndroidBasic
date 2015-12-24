@@ -64,7 +64,7 @@ Ngoài các thành phần chính nêu ở trên còn có một số thành phầ
 + Resources: Các phần tử bên ngoài: chuỗi, hằng số, hình ảnh, …
 + Manifest: Tập tin cấu hình của các ứng dụng.
 
-![Nguồn tham khảo](https://laptrinhtuduy.wordpress.com/2014/04/20/cac-thanh-phan-cua-ung-dung-android/)
+[Nguồn tham khảo](https://laptrinhtuduy.wordpress.com/2014/04/20/cac-thanh-phan-cua-ung-dung-android/)
 
  
 
