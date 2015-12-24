@@ -9,10 +9,10 @@ Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng 
 
 4 thành phần chính được sử dụng trong ứng dụng Android:
 
- Activities: Ra lệnh cho giao diện và sử lý tương tác của người dùng với màn hình smartPhone.
- Services: Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
- Broadcast Receivers: Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
- Content Providers: Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
+ + Activities: Ra lệnh cho giao diện và sử lý tương tác của người dùng với màn hình smartPhone.
+ + Services: Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
+ + Broadcast Receivers: Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
+ + Content Providers: Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
 
 ##1. Activities
 
