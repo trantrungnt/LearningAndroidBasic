@@ -58,12 +58,12 @@ Chúng ta sẽ đi vào chi tiết các thành phần này trong các phần sau
 
 Ngoài các thành phần chính nêu ở trên còn có một số thành phần khác. Các thành phần này sẽ bổ sung, tạo mối liên hệ logic giữa chúng.
 
-Fragments: Đại diện cho một hành vi hoặc một phần của giao diện người dùng trong một Activity.
-Views: Thành phần giao diện được vẽ trên màn hình bao gồm các button, textView, list,…
-Layouts: Phân chia, định dạng màn hình, và sự thể hiện các Views.
-Intents: Đóng gói các thông điệp.
-Resources: Các phần tử bên ngoài: chuỗi, hằng số, hình ảnh, …
-Manifest: Tập tin cấu hình của các ứng dụng.
++ Fragments: Đại diện cho một hành vi hoặc một phần của giao diện người dùng trong một Activity.
++ Views: Thành phần giao diện được vẽ trên màn hình bao gồm các button, textView, list,…
++ Layouts: Phân chia, định dạng màn hình, và sự thể hiện các Views.
++ Intents: Đóng gói các thông điệp.
++ Resources: Các phần tử bên ngoài: chuỗi, hằng số, hình ảnh, …
++ Manifest: Tập tin cấu hình của các ứng dụng.
  
 
  
