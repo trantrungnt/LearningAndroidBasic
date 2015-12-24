@@ -22,7 +22,6 @@ Một Activity đại diện cho một màn hình với một giao diện ngư�
 Một Activity là một Class con của Class Activities:
 
 public class MainActivity extends Activity {
- 
 }
 
 ##2. Services
@@ -51,7 +50,8 @@ Một Content Providers được thực thi như là class con của class Conte
 public class MyContentProvider extends ContentProvider { 
  
 }
-Chúng ta sẽ đi vào chi tiết các thành phần này trong các phần sau.
+
+* Chúng ta sẽ đi vào chi tiết các thành phần này trong các phần sau.
 
 ##5. Một số thành phần khác.
 
@@ -63,6 +63,9 @@ Ngoài các thành phần chính nêu ở trên còn có một số thành phầ
 + Intents: Đóng gói các thông điệp.
 + Resources: Các phần tử bên ngoài: chuỗi, hằng số, hình ảnh, …
 + Manifest: Tập tin cấu hình của các ứng dụng.
+
+![Nguồn tham khảo](https://laptrinhtuduy.wordpress.com/2014/04/20/cac-thanh-phan-cua-ung-dung-android/)
+
  
 
  
