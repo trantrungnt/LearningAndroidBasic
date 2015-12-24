@@ -5,7 +5,6 @@ Các phần quan trọng cần chú ý để tiếp cận Lập trình Android:
 + Services
 + Broad Cast Receiver
 + Content Provider
-+ 
 
 Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng Android. Các thành phần này được liên kết lỏng lẻo bởi các tập tin kê khai ứng dụng: AndroidManifest.xml, mô tả mỗi thành phần của ứng dụng và cách chúng tương tác.
 
