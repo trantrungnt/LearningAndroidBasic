@@ -1,6 +1,6 @@
 # Learning Android
 Các phần quan trọng cần chú ý để tiếp cận Lập trình Android:
-+ Activity
++ [Activity](https://github.com/trantrungnt/LearningActivity)
 + Services
 + Broad Cast Receiver
 + Content Provider
@@ -9,16 +9,16 @@ Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng 
 
 4 thành phần chính được sử dụng trong ứng dụng Android:
 
- + Activities: Ra lệnh cho giao diện và xử lý tương tác của người dùng với màn hình smartPhone.
+ + [Activities](https://github.com/trantrungnt/LearningActivity): Ra lệnh cho giao diện và xử lý tương tác của người dùng với màn hình smartPhone.
  + Services: Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
  + Broadcast Receivers: Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
  + Content Providers: Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
 
 ##1. Activities
 
-Một Activity đại diện cho một màn hình với một giao diện người dùng. VD: Một ứng dụng Email sẽ có một Activity để hiển thị tất cả các Email, một Activity khác để để soạn Email, một Activity khác để đọc Email. Nếu một ứng dụng có nhiều hơn 1 Activity thì một trong số chúng sẽ được đánh dấu là Activity hiển thị đầu tiên khi ứng dụng khởi chạy.
+Một [Activity](https://github.com/trantrungnt/LearningActivity) đại diện cho một màn hình với một giao diện người dùng. VD: Một ứng dụng Email sẽ có một Activity để hiển thị tất cả các Email, một Activity khác để để soạn Email, một Activity khác để đọc Email. Nếu một ứng dụng có nhiều hơn 1 Activity thì một trong số chúng sẽ được đánh dấu là Activity hiển thị đầu tiên khi ứng dụng khởi chạy.
 
-Một Activity là một Class con của Class Activities:
+Một [Activity](https://github.com/trantrungnt/LearningActivity) là một Class con của Class Activities:
 ```Java
 public class MainActivity extends Activity {
 }
