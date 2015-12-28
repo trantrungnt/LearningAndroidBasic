@@ -1,7 +1,7 @@
 # Learning Android
 Các phần quan trọng cần chú ý để tiếp cận Lập trình Android:
 + [Activity](https://github.com/trantrungnt/LearningActivity)
-+ Services
++ {Services}(https://github.com/trantrungnt/LearningServices)
 + Broad Cast Receiver
 + Content Provider
 
@@ -10,7 +10,7 @@ Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng 
 4 thành phần chính được sử dụng trong ứng dụng Android:
 
  + [Activities](https://github.com/trantrungnt/LearningActivity): Ra lệnh cho giao diện và xử lý tương tác của người dùng với màn hình smartPhone.
- + Services: Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
+ + [Services}(https://github.com/trantrungnt/LearningServices): Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
  + Broadcast Receivers: Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
  + Content Providers: Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
 
@@ -25,9 +25,9 @@ public class MainActivity extends Activity {
 ```
 ##2. Services
 
-Một Service là một thành phần được chạy bên trong nền để xử lý các công việc trong thời gian dài. Một ứng dụng nghe nhạc có thể phát nhạc, trong khi đó người dùng đang ở giao diện của ứng dụng khác. Hoặc ứng dụng download có thể tải dữ liệu trên mạng về máy mà không ngăn chặn người dùng tương tác với các ứng dụng khác.
+Một [Service](https://github.com/trantrungnt/LearningServices) là một thành phần được chạy bên trong nền để xử lý các công việc trong thời gian dài. Một ứng dụng nghe nhạc có thể phát nhạc, trong khi đó người dùng đang ở giao diện của ứng dụng khác. Hoặc ứng dụng download có thể tải dữ liệu trên mạng về máy mà không ngăn chặn người dùng tương tác với các ứng dụng khác.
 
-Một Service là một Class con của Class Service:
+Một [Service](https://github.com/trantrungnt/LearningServices) là một Class con của Class Service:
 
 ```Java
 public class MyService extends Service {
