@@ -19,10 +19,10 @@ Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng 
 Một Activity đại diện cho một màn hình với một giao diện người dùng. VD: Một ứng dụng Email sẽ có một Activity để hiển thị tất cả các Email, một Activity khác để để soạn Email, một Activity khác để đọc Email. Nếu một ứng dụng có nhiều hơn 1 Activity thì một trong số chúng sẽ được đánh dấu là Activity hiển thị đầu tiên khi ứng dụng khởi chạy.
 
 Một Activity là một Class con của Class Activities:
-'''Java
+```Java
 public class MainActivity extends Activity {
 }
-'''
+```
 ##2. Services
 
 Một Service là một thành phần được chạy bên trong nền để xử lý các công việc trong thời gian dài. Một ứng dụng nghe nhạc có thể phát nhạc, trong khi đó người dùng đang ở giao diện của ứng dụng khác. Hoặc ứng dụng download có thể tải dữ liệu trên mạng về máy mà không ngăn chặn người dùng tương tác với các ứng dụng khác.
