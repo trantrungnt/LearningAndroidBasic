@@ -29,27 +29,28 @@ Một Service là một thành phần được chạy bên trong nền để x�
 
 Một Service là một Class con của Class Service:
 
+```Java
 public class MyService extends Service {
 }
-
+```
 ##3. Broadcast Receivers
 
 Broadcast Receivers chỉ đơn giản là xử lý và phát các thông điệp từ các ứng dụng khác hoặc từ hệ thống. Ví dụ: các ứng dụng có thể bắt đầu phát thông điệp đến các ứng dụng khác để cho biết rằng một số dữ liệu đã được tải thành công xuống thiết bị và sẵn sàng cho việc sử dụng, Broadcast Receivers sẽ đảm nhận việc thông báo vào đưa ra những hành động thích hợp.
 
 A Broadcast Receiver được thực thi như là một class con của class BroadcastReceiver và mỗi thông điệp là một Intent.
-
+```Java
 public class MyReceiver extends BroadcastReceiver {
  }
-
+```
 ##4. Content Providers
 
 Một Content Providers chứa các thành phần cung cấp dữ liệu từ một ứng dụng đến một ứng dụng khác theo yêu cầu. Yêu cầu đó được sử lý bằng các phương thức của class ContentResolver. Dữ liệu được lưu trữ trong file hệ thống, trong cơ sở dữ liệu hoặc ở một nơi nào khác.
 Một Content Providers được thực thi như là class con của class ContentProvider và phải thực thi theo tiêu chuẩn trong bộ các API để cho các ứng dụng khác có thể giao tiếp.
-
+```Java
 public class MyContentProvider extends ContentProvider { 
  
 }
-
+```
 * Chúng ta sẽ đi vào chi tiết các thành phần này trong các phần sau.
 
 ##5. Một số thành phần khác.
