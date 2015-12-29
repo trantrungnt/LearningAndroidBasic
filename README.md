@@ -2,7 +2,7 @@
 Các phần quan trọng cần chú ý để tiếp cận Lập trình Android:
 + [Activity](https://github.com/trantrungnt/LearningActivity)
 + [Services](https://github.com/trantrungnt/LearningServices)
-+ Broad Cast Receiver
++ [Broad Cast Receiver](https://github.com/trantrungnt/LearningBroadCastReceivers)
 + Content Provider
 
 Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng Android. Các thành phần này được liên kết lỏng lẻo bởi các tập tin kê khai ứng dụng: AndroidManifest.xml, mô tả mỗi thành phần của ứng dụng và cách chúng tương tác.
@@ -11,7 +11,7 @@ Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng 
 
  + [Activities](https://github.com/trantrungnt/LearningActivity): Ra lệnh cho giao diện và xử lý tương tác của người dùng với màn hình smartPhone.
  + [Services](https://github.com/trantrungnt/LearningServices): Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
- + Broadcast Receivers: Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
+ + [Broadcast Receivers](https://github.com/trantrungnt/LearningBroadCastReceivers): Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
  + Content Providers: Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
 
 ##1. Activities
@@ -35,9 +35,9 @@ public class MyService extends Service {
 ```
 ##3. Broadcast Receivers
 
-Broadcast Receivers chỉ đơn giản là xử lý và phát các thông điệp từ các ứng dụng khác hoặc từ hệ thống. Ví dụ: các ứng dụng có thể bắt đầu phát thông điệp đến các ứng dụng khác để cho biết rằng một số dữ liệu đã được tải thành công xuống thiết bị và sẵn sàng cho việc sử dụng, Broadcast Receivers sẽ đảm nhận việc thông báo vào đưa ra những hành động thích hợp.
+[Broadcast Receivers](https://github.com/trantrungnt/LearningBroadCastReceivers) chỉ đơn giản là xử lý và phát các thông điệp từ các ứng dụng khác hoặc từ hệ thống. Ví dụ: các ứng dụng có thể bắt đầu phát thông điệp đến các ứng dụng khác để cho biết rằng một số dữ liệu đã được tải thành công xuống thiết bị và sẵn sàng cho việc sử dụng, Broadcast Receivers sẽ đảm nhận việc thông báo vào đưa ra những hành động thích hợp.
 
-A Broadcast Receiver được thực thi như là một class con của class BroadcastReceiver và mỗi thông điệp là một Intent.
+[A Broadcast Receiver](https://github.com/trantrungnt/LearningBroadCastReceivers) được thực thi như là một class con của class BroadcastReceiver và mỗi thông điệp là một Intent.
 ```Java
 public class MyReceiver extends BroadcastReceiver {
  }
