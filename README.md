@@ -3,7 +3,7 @@ Các phần quan trọng cần chú ý để tiếp cận Lập trình Android:
 + [Activity](https://github.com/trantrungnt/LearningActivity)
 + [Services](https://github.com/trantrungnt/LearningServices)
 + [Broad Cast Receiver](https://github.com/trantrungnt/LearningBroadCastReceivers)
-+ Content Provider
++ [Content Provider](https://github.com/trantrungnt/LearningContentProvider)
 
 Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng Android. Các thành phần này được liên kết lỏng lẻo bởi các tập tin kê khai ứng dụng: AndroidManifest.xml, mô tả mỗi thành phần của ứng dụng và cách chúng tương tác.
 
@@ -12,7 +12,7 @@ Thành phần ứng dụng là khối kiến trúc cơ bản của ứng dụng 
  + [Activities](https://github.com/trantrungnt/LearningActivity): Ra lệnh cho giao diện và xử lý tương tác của người dùng với màn hình smartPhone.
  + [Services](https://github.com/trantrungnt/LearningServices): Là thành phần chạy phía sau, chạy bên trong của mỗi ứng dụng.
  + [Broadcast Receivers](https://github.com/trantrungnt/LearningBroadCastReceivers): Xử lý việc giao tiếp giữa HĐH Android và ứng dụng.
- + Content Providers: Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
+ + [Content Providers](https://github.com/trantrungnt/LearningContentProvider): Xử lý dữ liệu và  các vấn đề về quản lý cơ sở dữ liệu.
 
 ##1. Activities
 
@@ -44,8 +44,8 @@ public class MyReceiver extends BroadcastReceiver {
 ```
 ##4. Content Providers
 
-Một Content Providers chứa các thành phần cung cấp dữ liệu từ một ứng dụng đến một ứng dụng khác theo yêu cầu. Yêu cầu đó được sử lý bằng các phương thức của class ContentResolver. Dữ liệu được lưu trữ trong file hệ thống, trong cơ sở dữ liệu hoặc ở một nơi nào khác.
-Một Content Providers được thực thi như là class con của class ContentProvider và phải thực thi theo tiêu chuẩn trong bộ các API để cho các ứng dụng khác có thể giao tiếp.
+Một [Content Providers](https://github.com/trantrungnt/LearningContentProvider) chứa các thành phần cung cấp dữ liệu từ một ứng dụng đến một ứng dụng khác theo yêu cầu. Yêu cầu đó được sử lý bằng các phương thức của class ContentResolver. Dữ liệu được lưu trữ trong file hệ thống, trong cơ sở dữ liệu hoặc ở một nơi nào khác.
+Một [Content Providers](https://github.com/trantrungnt/LearningContentProvider) được thực thi như là class con của class ContentProvider và phải thực thi theo tiêu chuẩn trong bộ các API để cho các ứng dụng khác có thể giao tiếp.
 ```Java
 public class MyContentProvider extends ContentProvider { 
  
