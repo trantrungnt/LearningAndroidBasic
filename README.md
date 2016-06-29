@@ -57,14 +57,16 @@ public class MyContentProvider extends ContentProvider {
 
 Ngoài các thành phần chính nêu ở trên còn có một số thành phần khác. Các thành phần này sẽ bổ sung, tạo mối liên hệ logic giữa chúng.
 
-+ Fragments: Đại diện cho một hành vi hoặc một phần của giao diện người dùng trong một Activity.
++ [Fragments](http://bugcodes.com/android/android-tut-11-fragment/): Đại diện cho một hành vi hoặc một phần của giao diện người dùng trong một Activity.
 + Views: Thành phần giao diện được vẽ trên màn hình bao gồm các button, textView, list,…
 + Layouts: Phân chia, định dạng màn hình, và sự thể hiện các Views.
 + Intents: Đóng gói các thông điệp.
 + Resources: Các phần tử bên ngoài: chuỗi, hằng số, hình ảnh, …
 + Manifest: Tập tin cấu hình của các ứng dụng.
 
-[Nguồn tham khảo](https://laptrinhtuduy.wordpress.com/2014/04/20/cac-thanh-phan-cua-ung-dung-android/)
+##Nguồn tham khảo
++ [Các thành phần của ứng dụng Android](https://laptrinhtuduy.wordpress.com/2014/04/20/cac-thanh-phan-cua-ung-dung-android/)
+
 
  
 
