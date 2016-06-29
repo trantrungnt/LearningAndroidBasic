@@ -66,6 +66,7 @@ Ngoài các thành phần chính nêu ở trên còn có một số thành phầ
 
 ##Nguồn tham khảo
 + [Các thành phần của ứng dụng Android](https://laptrinhtuduy.wordpress.com/2014/04/20/cac-thanh-phan-cua-ung-dung-android/)
++ [Fragment trong Android](https://laptrinhtuduy.wordpress.com/2014/04/29/fragment-trong-android/)
 
 
  
